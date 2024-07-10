@@ -322,3 +322,104 @@ nav h2 {
 }
 
 /* my current target end */
+/* support section start */
+
+.support-content {
+    Width: 1140px;
+    Height: 313px;
+    margin: 0 auto;
+    margin-top: 49px;
+    background-image: url("../assets/handshake.jpg");
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.support-text-content {
+    width: 1044px;
+    height: 185px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.support-text-content h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-text-content p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.support-input-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.support-input-button input {
+    width: 548px;
+    height: 57px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.support-input-button button {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 16px;
+}
+
+/* support section end */
+
+.footer-content {
+    width: 1440px;
+    height: 100px;
+    border: 3px solid deeppink;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.line-content {
+    width: 1140px;
+    height: 36px;
+    border: 3px solid mediumaquamarine;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.line-content h2 {
+    text-align: justify;
+    margin-left: 0;
+    margin-top: 0;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+
+}
+
+.
