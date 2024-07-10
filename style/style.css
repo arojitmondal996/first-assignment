@@ -141,6 +141,7 @@ nav h2 {
     margin-right: 0;
     margin-top: 55px;
 }
+
 .code-image-contant img {
     margin-left: 200px;
 }
@@ -173,6 +174,81 @@ nav h2 {
     font-weight: 600;
 }
 
-
-
 /* web development content end */
+
+/* inspirstion section start */
+
+.inspirstion-content {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.inspirstion-text-content {
+    width: 852px;
+    height: 113px;
+    margin: 0px auto;
+}
+
+.inspirstion-text-content h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.inspirstion-text-content p {
+    text-align: center;
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.inspirstion-video-content {
+    width: 1140px;
+    height: 614px;
+    margin: 0 auto;
+    margin-top: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.video-content {
+    width: 1076px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 16px;
+}
+
+/* inspirstion section end */
+
+/* my current target start */
+
+.current-target-content {
+    width: 1140px;
+    height: 460px;
+    border: 3px solid tomato;
+    margin: 0 auto;
+    margin-top: 151px;
+}
+
+.target-text-content {
+    width: 946px;
+    height: 113px;
+    border: 3px solid magenta;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.target-text-content h2 {
+    margin-top: 0;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* my current target end */
