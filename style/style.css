@@ -336,6 +336,7 @@ nav h2 {
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    border: 1px solid black;
 }
 
 .support-text-content {
@@ -397,17 +398,19 @@ nav h2 {
 .footer-content {
     width: 1440px;
     height: 100px;
-    border: 3px solid deeppink;
     margin: 0 auto;
     margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
 }
 
 .line-content {
     width: 1140px;
     height: 36px;
-    border: 3px solid mediumaquamarine;
     margin: 0 auto;
     margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .line-content h2 {
@@ -422,4 +425,16 @@ nav h2 {
 
 }
 
-.
+.line-icon-content {
+    display: flex;
+    margin-top: 30px;
+}
+
+.line-icon-content li {
+    display: inline;
+    margin: 10px;
+    margin-top: 0;
+}
+.line-text-content{
+    margin-top: 30px;
+}
