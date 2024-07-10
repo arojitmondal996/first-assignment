@@ -223,6 +223,10 @@ nav h2 {
     border-radius: 16px;
 }
 
+.video-content iframe {
+    border-radius: 16px;
+}
+
 /* inspirstion section end */
 
 /* my current target start */
@@ -230,7 +234,6 @@ nav h2 {
 .current-target-content {
     width: 1140px;
     height: 460px;
-    border: 3px solid tomato;
     margin: 0 auto;
     margin-top: 151px;
 }
@@ -238,7 +241,6 @@ nav h2 {
 .target-text-content {
     width: 946px;
     height: 113px;
-    border: 3px solid magenta;
     margin: 0px auto;
     text-align: center;
 }
@@ -249,6 +251,74 @@ nav h2 {
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
+}
+
+.target-text-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.target-section {
+    width: 1140px;
+    height: 299px;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+}
+
+.first-section {
+    width: 364px;
+    height: 299px;
+    margin: 0px auto;
+    margin-left: 0;
+    border-radius: 16px;
+}
+
+.first-circule {
+    width: 284px;
+    height: 219px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.first-section h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.first-section p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.first-section button {
+    margin-bottom: 0;
+}
+
+.target-section .first {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.target-section .second {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target-section .third {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.first-section a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    border-top: 30px;
 }
 
 /* my current target end */
